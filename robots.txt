@@ -1,0 +1,7 @@
+# robots.txt for crawlcove.github.io, the host the SEO test site lives on.
+# The wholesale area is disallowed on purpose: the test site's sitemap lists
+# a page inside it (planted problem TS-54 in CrawlCove/seo-test-site ISSUES.md).
+User-agent: *
+Disallow: /seo-test-site/wholesale/
+
+Sitemap: https://crawlcove.github.io/seo-test-site/sitemap.xml
